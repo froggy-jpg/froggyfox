@@ -1,0 +1,47 @@
+/* titlebar */
+
+#titlebar {
+  display: none !important;
+}
+
+#star-button-box {
+  display: none;
+}
+
+/* border and transparency */
+
+#main-window {
+  box-sizing: border-box;
+  padding: 15px !important;
+}
+
+body {
+  background-color: #282828f2;
+  border-radius: 12px;
+}
+
+#navigator-toolbox {
+  --toolbar-bgcolor: transparent;
+  background-color: transparent !important;
+}
+
+/* sidebar */
+
+#sidebar-box {
+  
+  background-color: transparent !important;
+}
+
+#sidebar-header {
+  display: none;
+}
+
+
+/* fullscreen */
+
+@media all and (display-mode: fullscreen) {
+  #main-window {
+    padding: 0px !important;
+  }
+}
+
